@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess the Number — Log Monitor</title>
+  <link rel="stylesheet" href="number.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Guess the Number — Log Monitor</h1>
+    <p><strong>Game Started:</strong> <span id="startTime"></span></p>
+    <p><strong>Game Finished:</strong> <span id="endTime">--</span></p>
+
+    <div class="controls">
+      <input type="number" id="guessInput" placeholder="Enter your guess (1–50)" />
+      <button id="guessBtn">Guess</button>
+      <button id="revealBtn" class="reveal">Reveal</button>
+    </div>
+
+    <p id="result"></p>
+    <p id="correctNumber"></p>
+
+    <h2>📋 Guess Log</h2>
+    <table id="logTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Guess</th>
+          <th>Result</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <button id="resetBtn" class="reset">Reset Game</button>
+  </div>
+
+  <script src="number.js"></script>
+</body>
+</html>

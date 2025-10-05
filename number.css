@@ -1,0 +1,98 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #250146, #250146);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 450px;
+  text-align: center;
+}
+
+h1 {
+  color: #2e4a7d;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin: 15px 0;
+}
+
+input {
+  padding: 10px;
+  width: 180px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#guessBtn {
+  background: #3b5998;
+  color: white;
+}
+
+#revealBtn {
+  background: #ff5757;
+  color: white;
+}
+
+#resetBtn {
+  background: #444;
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background: #3b5998;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#correctNumber {
+  color: green;
+  font-weight: bold;
+  margin-top: 5px;
+}
